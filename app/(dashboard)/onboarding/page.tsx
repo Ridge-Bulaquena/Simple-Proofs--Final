@@ -1,5 +1,8 @@
 import Stepper from "@/components/onboarding/Stepper";
 import StoreInfo from "@/app/(dashboard)/onboarding/steps/StoreInfo";
+import { supabase } from "@/lib/supabaseClient";
+import { motion } from "framer-motion";
+import { CheckCircle } from "lucide-react";
 
 export default function OnboardingPage() {
   // For now, just render the first step
@@ -9,6 +12,8 @@ export default function OnboardingPage() {
       <div className="mt-8">
         <StoreInfo />
       </div>
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} />
+      <CheckCircle className="text-accent" />
     </div>
   );
 } 
