@@ -1,6 +1,6 @@
-import Stepper from "@/components/onboarding/Stepper";
-import StoreInfo from "@/app/(dashboard)/onboarding/steps/StoreInfo";
-import { supabase } from "@/lib/supabaseClient";
+import Stepper from "../../../components/onboarding/Stepper";
+import StoreInfo from "./steps/StoreInfo";
+import { supabase } from "../../../lib/supabaseClient";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
 
