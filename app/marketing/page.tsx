@@ -7,7 +7,7 @@ import Hero from "@/components/marketing/Hero";
 // import EmailSignup from "@/components/marketing/EmailSignup";
 // import Footer from "@/components/marketing/Footer";
 
-export default function LandingPage() {
+export default function MarketingPage() {
   return (
     <main>
       <Hero />
